@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.all{
+  display:flex;
+  justify-content: space-between;
+}
+
+body{
+  background-color: white;
+  color:black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.navContainer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+
+.navLink{
+  margin:0 0.6rem;
+  cursor: pointer;
+}
+.navLink--text{
+  font-size: 0.8rem;
+}
+
+.navLink--text:hover{
+  text-decoration: underline;
+}
+.navLink--icon{
+  padding: 0.5rem;
+}
+.navLink--icon:hover{
+  background-color: lightgrey;
+  border-radius: 50%;
+  opacity:1;
+}
+.navLink--user{
+  width:2rem; height:2rem; 
+  text-align: center;
+  background-color: orangered;
+  border-radius: 50%;
+  padding:0.2rem;
+}
+.navLink--user a{
+  color: white;
+}
+
+.navLink--user:hover{
+  border:3px solid grey;
+}
+
+.navMobile{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  visibility: hidden;
+}
+
+.mobileLink{
+  margin:0 0.6rem;
+  cursor: pointer;
+}
+
+.mobileLink--text{
+  color:grey;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+.active a{
+  padding-bottom: 0.8rem;
+  color:blue;
+  border-bottom: 2px solid blue;
+}
+
+@media only screen and (max-width: 460px) {
+  .navLink--text{
+    display: none;
+  }
+
+  .navContainer{
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .navLink--icon{
+    color: grey;
+  }
+
+  .navMobile{
+    visibility: visible;
+  }
+
+  
+}
