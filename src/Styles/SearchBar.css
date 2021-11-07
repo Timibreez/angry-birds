@@ -1,0 +1,83 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.search, .btn{
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"]{
+    padding: 10px 250px;
+    border-radius: 50px;    
+}
+
+.serachIcon{
+    cursor: pointer;
+    position: relative;
+    left: 5%;
+    
+    
+}
+
+.voiceButton{
+    cursor: pointer;
+    position: relative;
+    left: -5%;
+    
+}
+
+
+.btn  button{
+    margin-left: 2rem;
+    padding: .3rem 1rem;
+    font-size: 1rem ;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(230, 230, 230, 0.911);
+
+}
+.btn{
+    margin-top: 0.8rem;
+}
+
+.element-1{
+    margin-right: 0.6rem;
+}
+
+.element-2{
+    word-spacing: 1rem;
+}
+
+.search{
+    /* margin-top: 1rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.logo{
+    margin-bottom: 2rem;
+}
+
+
