@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { MdSearch } from "react-icons/md";
-import "../Styles/SearchBar.css"
-import sidehustle from "../Assets/SideHustleImage.jpg"
-import Voice from "../Assets/Voicesearch.png"
+import "../styles/searchBar.css"
+import sidehustle from "../assets/SideHustleImage.jpg"
+import Voice from "../assets/Voicesearch.png"
 
 
 
